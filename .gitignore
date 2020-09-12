@@ -102,3 +102,12 @@ dist
 
 # TernJS port file
 .tern-port
+
+# Solidity
+build
+.idea/*
+coverage.json
+coverage/
+crytic-export
+mcore_*
+.openzeppelin/.session
