@@ -1,0 +1,26 @@
+{
+  "name": "jibrel-network-test-task",
+  "version": "1.0.0",
+  "description": "Test Task: Write a smart contract for sending an ERC20 token through this flow using 1 transaction. (User-> Contract A-> Contract B -> Contract C)",
+  "scripts": {
+    "compile": "npx truffle compile"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ayusht11/jibrel-network-test-task.git"
+  },
+  "keywords": [
+    "jibrel",
+    "solidity"
+  ],
+  "author": "Ayush Tiwari",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ayusht11/jibrel-network-test-task/issues"
+  },
+  "homepage": "https://github.com/ayusht11/jibrel-network-test-task#readme",
+  "dependencies": {
+    "@openzeppelin/contracts": "^3.2.0",
+    "truffle": "^5.1.44"
+  }
+}
