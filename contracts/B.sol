@@ -40,6 +40,7 @@ contract B {
     function receiveAndForwardTokens(uint256 _amount) external returns (bool) {
         IERC20 token = IERC20(compatibleToken);
         token.safeTransferFrom(msg.sender, address(this), _amount);
+        token.safeApprove(compatibleC, 0);
         token.safeApprove(compatibleC, _amount);
 
         require(
